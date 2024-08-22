@@ -7,7 +7,7 @@
 .main-banner {
   overflow: hidden;
   background-color: #38B18A;
-  min-height: 600px;
+  min-height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
