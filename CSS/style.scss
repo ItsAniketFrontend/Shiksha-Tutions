@@ -1,0 +1,457 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main-banner {
+    overflow: hidden;
+    background-color: #38B18A;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .col-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            font-family: "Libre Franklin", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            line-height: 78px;
+            font-size: 65px;
+            color: #fff;
+        }
+
+        p {
+            font-family: "Libre Franklin", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 20px;
+            font-size: 21px;
+            color: #fff;
+        }
+
+        button {
+            background-color: transparent;
+            padding: 10px 40px;
+            border-radius: 10px;
+            border: 1px solid #fff;
+
+            a {
+                font-family: "Libre Franklin", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 20px;
+                font-size: 16px;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.home-usps {
+    overflow: hidden;
+    padding: 50px 0px;
+    background-color: #F9F1F8;
+
+    .col-box {
+        background-color: #fff;
+        padding: 50px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0px 28px 40px 0px rgba(2.000000000000001, 8.000000000000025, 22, 0.1);
+
+        h2 {
+            padding-top: 18px;
+            font-family: "DM Sans", sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 48px;
+            font-size: 48px;
+            color: #000;
+        }
+
+        p {
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 23px;
+            font-family: "DM Sans", sans-serif;
+            color: #808080;
+        }
+    }
+}
+
+.home-student {
+    overflow: hidden;
+    background-color: #F9F1F8;
+
+    h2 {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-size: 44px;
+        line-height: 57px;
+        font-weight: 700;
+        color: #000;
+    }
+
+    p {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 25px;
+        color: #707070;
+        font-family: Manrope, sans-serif;
+    }
+
+    li {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 25px;
+        color: #707070;
+        font-family: Manrope, sans-serif;
+    }
+}
+
+.home-tutors {
+    overflow: hidden;
+    background-color: #F9F1F8;
+
+    h2 {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-size: 44px;
+        line-height: 57px;
+        font-weight: 700;
+        color: #000;
+    }
+
+    p {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 25px;
+        color: #707070;
+        font-family: Manrope, sans-serif;
+    }
+
+    li {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 25px;
+        color: #707070;
+        font-family: Manrope, sans-serif;
+    }
+}
+
+.home-what {
+    overflow: hidden;
+    background-color: #F9F1F8;
+
+    h2 {
+        font-family: Manrope, sans-serif;
+        font-size: 44px;
+        line-height: 57px;
+        font-weight: 700;
+        color: #000;
+        font-style: normal;
+        padding-bottom: 28px;
+    }
+
+    .col-box {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 40px 0px;
+    }
+
+    h3 {
+        font-family: Manrope, sans-serif;
+        font-size: 34px;
+        line-height: 37px;
+        font-weight: 700;
+        color: #000;
+        font-style: normal;
+        padding-top: 30px;
+    }
+
+    button {
+        background-color: transparent;
+        padding: 10px 40px;
+        border-radius: 10px;
+        background-color: #FF723A;
+        border: none;
+        transition: 300ms all ease-in;
+
+        &:hover {
+            background-color: #fff;
+            border: 1px solid #FF723A;
+
+            a {
+                text-decoration: none;
+                font-family: Manrope, sans-serif;
+                font-size: 16px;
+                line-height: 16px;
+                color: #000;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            font-family: Manrope, sans-serif;
+            font-size: 16px;
+            line-height: 16px;
+            color: #fff;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+}
+
+.why-home {
+    background-color: #F9F1F8;
+
+    h2 {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 57px;
+        color: #000;
+    }
+
+    p {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #707070;
+    }
+
+    li {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: #1b212f;
+    }
+
+    button {
+        width: fit-content;
+        background-color: #FF723A;
+        padding: 10px 40px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 30px;
+
+        a {
+            text-decoration: none;
+            font-size: 16px;
+            font-style: normal;
+            font-family: Manrope, sans-serif;
+            color: #fff;
+            font-weight: 400;
+            line-height: 16px;
+        }
+    }
+}
+
+.foot {
+    background-color: #Ffff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+    h3 {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        font-size: 18px;
+        color: #1b212f;
+    }
+
+    hr {
+        border: 1px solid #000;
+    }
+
+    h5 {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 16px;
+        color: #1b212f;
+        margin-bottom: 0px;
+
+        span {
+            font-family: Manrope, sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+            font-size: 16px;
+            color: #000;
+        }
+    }
+
+    p {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 16px;
+        color: #707070;
+    }
+
+    li {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        color: #707070;
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    h6 {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        color: #707070;
+        line-height: 25px;
+        font-size: 16px;
+    }
+}
+
+.student-banner {
+    background-color: #38B18A;
+    padding: 50px 0px;
+
+    h1 {
+        font-family: "Libre Franklin", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 78px;
+        font-size: 65px;
+        color: #fff;
+    }
+
+    .form-box {
+        padding: 30px;
+        border: 1px solid #fff;
+        border-radius: 30px;
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            margin-bottom: 10px;
+            font-family: Manrope, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #707070;
+            line-height: 25px;
+            font-size: 16px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            margin-bottom: 10px;
+            font-family: Manrope, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #707070;
+            line-height: 25px;
+            font-size: 16px;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        button {
+            background-color: transparent;
+            padding: 10px 40px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            font-family: "Libre Franklin", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 16px;
+            color: #fff;
+        }
+    }
+}
+
+.why-students-real {
+    padding: 50px 0px;
+
+    h2 {
+        font-family: Archivo, sans-serif;
+        font-size: 45px;
+        line-height: 60px;
+        color: #101010;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 0px;
+
+        span {
+            color: #38B18A;
+        }
+    }
+
+    p {
+        font-family: Archivo, sans-serif;
+        font-size: 16px;
+        line-height: 21px;
+        color: #00000080;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .col-box {
+        box-shadow: -30px 30px 60px 0px rgba(0, 0, 0, 0.07);
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: #FFFFFFA1;
+        padding: 50px 20px;
+        height: 100%;
+
+        h3 {
+            font-family: Archivo, sans-serif;
+            font-size: 23px;
+            font-weight: 500;
+            line-height: 26px;
+            font-style: normal;
+            color: #101010;
+            padding: 30px 0px;
+        }
+
+        p {
+            font-family: Archivo, sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            font-style: normal;
+            color: #666;
+        }
+    }
+}
+
+.student-steps{
+
+}
