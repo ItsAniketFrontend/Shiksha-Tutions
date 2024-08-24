@@ -4,6 +4,45 @@
   box-sizing: border-box;
 }
 
+nav {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  padding: 0px !important;
+}
+nav a {
+  color: #fff !important;
+}
+nav .nav-link {
+  font-family: "DM Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 48px;
+  font-size: 15px;
+  color: #fff;
+}
+nav button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.possi {
+  position: relative;
+}
+
 .main-banner {
   overflow: hidden;
   background-color: #38B18A;
@@ -305,7 +344,7 @@
 
 .student-banner {
   background-color: #38B18A;
-  padding: 50px 0px;
+  padding: 100px 0px;
 }
 .student-banner h1 {
   font-family: "Libre Franklin", sans-serif;
@@ -406,4 +445,105 @@
   line-height: 24px;
   font-style: normal;
   color: #666;
+}
+
+.student-steps {
+  padding: 50px 0px;
+  background-color: #F9F1F8;
+}
+.student-steps h6 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 0px;
+  background-color: #38B18A;
+  padding: 28px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 100%;
+}
+.student-steps h2 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 0px;
+}
+.student-steps p {
+  font-family: Archivo, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  font-style: normal;
+  color: #666;
+}
+
+.specialisation h2 {
+  font-family: Manrope, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 39px;
+  color: #1b212f;
+}
+.specialisation p {
+  font-family: Manrope, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 25px;
+  font-size: 16px;
+  color: #707070;
+}
+.specialisation h3 {
+  font-family: Manrope, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 29px;
+  font-size: 18px;
+  color: #000009;
+}
+.specialisation .col-box {
+  background-color: #FEF6F7;
+  height: 100%;
+  padding: 20px;
+}
+
+.local-class {
+  padding-bottom: 40px;
+}
+.local-class h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+  color: #000;
+}
+.local-class h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  font-style: normal;
+  color: #33302d;
+  margin-bottom: 0px;
+}
+.local-class p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 0px;
+  line-height: 24px;
+  color: #686664;
+  font-style: normal;
+}
+.local-class .box {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #F9F1F8;
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=style.css.map */
