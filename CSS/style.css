@@ -24,6 +24,16 @@ nav .nav-link {
   font-size: 15px;
   color: #fff;
 }
+@media (max-width: 991px) {
+  nav .nav-link {
+    color: #000 !important;
+  }
+}
+@media (max-width: 991px) {
+  nav .navbar-collapse {
+    background-color: #fff;
+  }
+}
 nav button {
   background-color: transparent;
   border: 1px solid #fff;
@@ -65,6 +75,13 @@ nav button {
   line-height: 78px;
   font-size: 65px;
   color: #fff;
+}
+@media (max-width: 991px) {
+  .main-banner .col-12 h1 {
+    font-size: 52px;
+    line-height: normal;
+    text-align: center;
+  }
 }
 .main-banner .col-12 p {
   font-family: "Libre Franklin", sans-serif;
