@@ -713,4 +713,54 @@ nav button {
   color: #707070;
   line-height: 25px;
   font-size: 16px;
+}
+
+.popup_form .cross {
+  background-color: #19382B;
+  color: #fff;
+}
+.popup_form .cross:hover {
+  background-color: #19382B;
+  color: #fff;
+}
+
+.popup_form label {
+  color: #000;
+  font-family: "Futura Md BT";
+  font-size: 18px;
+}
+
+.popup_form input {
+  font-family: "Futura Md BT";
+  font-size: 14px;
+  color: #53626a;
+}
+
+.popup_form textarea {
+  font-family: "Futura Md BT";
+  font-size: 14px;
+  color: #53626a;
+}
+
+.popup_form h5 {
+  color: #000;
+  font-family: "Futura Md BT";
+  font-size: 24px;
+}
+
+.popup_form h6 {
+  color: #000;
+  font-family: avalon-bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.popup_form button {
+  background-color: #19382B;
+  color: #fff;
+  font-family: "Futura Md BT";
+  font-weight: 500;
+}
+.popup_form button:hover {
+  border: 1px solid #19382B;
 }/*# sourceMappingURL=style.css.map */
