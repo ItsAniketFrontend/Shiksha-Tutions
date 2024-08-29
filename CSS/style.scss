@@ -324,7 +324,7 @@ nav{
 }
 
 .foot {
-    background-color: #Ffff;
+    background-color: #33302d;
     padding-top: 50px;
     padding-bottom: 10px;
 
@@ -334,7 +334,7 @@ nav{
         font-weight: 700;
         line-height: 20px;
         font-size: 18px;
-        color: #1b212f;
+        color: #fff;
     }
 
     hr {
@@ -347,7 +347,7 @@ nav{
         font-weight: 400;
         line-height: 22px;
         font-size: 16px;
-        color: #1b212f;
+        color: #fff;
         margin-bottom: 0px;
 
         span {
@@ -356,7 +356,7 @@ nav{
             font-weight: 700;
             line-height: 22px;
             font-size: 16px;
-            color: #000;
+            color: #fff;
         }
     }
 
@@ -366,23 +366,28 @@ nav{
         font-weight: 400;
         line-height: 25px;
         font-size: 16px;
-        color: #707070;
+        color: #fff;
     }
 
     li {
         font-family: Manrope, sans-serif;
         font-style: normal;
         font-weight: 700;
-        color: #707070;
+        color: #fff;
         line-height: 25px;
         font-size: 16px;
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
     }
 
     h6 {
         font-family: Manrope, sans-serif;
         font-style: normal;
         font-weight: 700;
-        color: #707070;
+        color: #fff;
         line-height: 25px;
         font-size: 16px;
     }

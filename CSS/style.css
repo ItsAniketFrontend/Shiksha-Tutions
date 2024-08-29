@@ -302,7 +302,7 @@ nav button {
 }
 
 .foot {
-  background-color: white;
+  background-color: #33302d;
   padding-top: 50px;
   padding-bottom: 10px;
 }
@@ -312,7 +312,7 @@ nav button {
   font-weight: 700;
   line-height: 20px;
   font-size: 18px;
-  color: #1b212f;
+  color: #fff;
 }
 .foot hr {
   border: 1px solid #000;
@@ -323,7 +323,7 @@ nav button {
   font-weight: 400;
   line-height: 22px;
   font-size: 16px;
-  color: #1b212f;
+  color: #fff;
   margin-bottom: 0px;
 }
 .foot h5 span {
@@ -332,7 +332,7 @@ nav button {
   font-weight: 700;
   line-height: 22px;
   font-size: 16px;
-  color: #000;
+  color: #fff;
 }
 .foot p {
   font-family: Manrope, sans-serif;
@@ -340,21 +340,26 @@ nav button {
   font-weight: 400;
   line-height: 25px;
   font-size: 16px;
-  color: #707070;
+  color: #fff;
 }
 .foot li {
   font-family: Manrope, sans-serif;
   font-style: normal;
   font-weight: 700;
-  color: #707070;
+  color: #fff;
   line-height: 25px;
   font-size: 16px;
+  list-style: none;
+}
+.foot li a {
+  text-decoration: none;
+  color: #fff;
 }
 .foot h6 {
   font-family: Manrope, sans-serif;
   font-style: normal;
   font-weight: 700;
-  color: #707070;
+  color: #fff;
   line-height: 25px;
   font-size: 16px;
 }
