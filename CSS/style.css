@@ -372,13 +372,13 @@ nav button {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
   font-style: normal;
-  line-height: 78px;
-  font-size: 65px;
+  line-height: normal;
+  font-size: 42px;
   color: #fff;
 }
 @media (max-width: 991px) {
   .student-banner h1 {
-    font-size: 32px;
+    font-size: 28px;
     line-height: normal;
   }
 }
@@ -397,7 +397,8 @@ nav button {
   font-weight: 400;
   color: #707070;
   line-height: 25px;
-  font-size: 16px;
+  font-size: 14px;
+  border-radius: 10px;
 }
 .student-banner .form-box select {
   width: 100%;
@@ -409,10 +410,12 @@ nav button {
   font-weight: 400;
   color: #707070;
   line-height: 25px;
-  font-size: 16px;
+  font-size: 14px;
+  border-radius: 10px;
 }
 .student-banner .form-box textarea {
   width: 100%;
+  border-radius: 10px;
 }
 .student-banner .form-box button {
   background-color: transparent;
@@ -586,13 +589,13 @@ nav button {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
   font-style: normal;
-  line-height: 78px;
-  font-size: 62px;
+  line-height: normal;
+  font-size: 42px;
   color: #fff;
 }
 @media (max-width: 991px) {
   .tutor-banner h1 {
-    font-size: 32px;
+    font-size: 24px;
     line-height: normal;
   }
 }
@@ -625,7 +628,8 @@ nav button {
   font-weight: 400;
   color: #707070;
   line-height: 25px;
-  font-size: 16px;
+  font-size: 14px;
+  border-radius: 10px;
 }
 .tutor-banner .form-box select {
   width: 100%;
@@ -637,7 +641,8 @@ nav button {
   font-weight: 400;
   color: #707070;
   line-height: 25px;
-  font-size: 16px;
+  font-size: 14px;
+  border-radius: 10px;
 }
 .tutor-banner .form-box textarea {
   width: 100%;
@@ -655,6 +660,7 @@ nav button {
 }
 
 .career {
+  background-color: #F9F1F8;
   padding: 50px 0px;
 }
 .career h2 {
@@ -694,6 +700,8 @@ nav button {
 
 .looking {
   padding: 50px 0px;
+  background-color: #F9F1F8;
+  overflow: hidden;
 }
 .looking h2 {
   font-family: "Libre Franklin", sans-serif;
@@ -710,6 +718,11 @@ nav button {
   font-weight: 600;
   font-style: normal;
   color: #33302d;
+}
+.looking .col-box {
+  background-color: #fff;
+  height: 100%;
+  padding: 20px;
 }
 .looking p {
   font-family: Manrope, sans-serif;
@@ -806,4 +819,17 @@ nav button {
 }
 .popup_form button:hover {
   border: 1px solid #19382B;
+}
+
+@media (max-width: 576px) {
+  .form-container {
+    top: 50%;
+    width: 100%;
+    padding: 50px 60px;
+  }
+  .btn_brochure {
+    background-color: #1e1916;
+    padding: 5px 0 20px 0;
+    margin-top: -5px;
+  }
 }/*# sourceMappingURL=style.css.map */

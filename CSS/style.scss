@@ -401,11 +401,11 @@ nav{
         font-family: "Libre Franklin", sans-serif;
         font-weight: 700;
         font-style: normal;
-        line-height: 78px;
-        font-size: 65px;
+        line-height: normal;
+        font-size: 42px;
         color: #fff;
         @media (max-width:991px) {
-            font-size: 32px;
+            font-size: 28px;
             line-height: normal;
         }
     }
@@ -425,7 +425,8 @@ nav{
             font-weight: 400;
             color: #707070;
             line-height: 25px;
-            font-size: 16px;
+            font-size: 14px;
+            border-radius: 10px;
         }
 
         select {
@@ -438,11 +439,13 @@ nav{
             font-weight: 400;
             color: #707070;
             line-height: 25px;
-            font-size: 16px;
+            font-size: 14px;
+            border-radius: 10px;
         }
 
         textarea {
             width: 100%;
+            border-radius: 10px;
         }
 
         button {
@@ -627,11 +630,11 @@ nav{
         font-family: "Libre Franklin", sans-serif;
         font-weight: 700;
         font-style: normal;
-        line-height: 78px;
-        font-size: 62px;
+        line-height: normal;
+        font-size: 42px;
         color: #fff;
         @media (max-width:991px) {
-            font-size: 32px;
+            font-size: 24px;
             line-height: normal;
         }
     }
@@ -664,7 +667,8 @@ nav{
             font-weight: 400;
             color: #707070;
             line-height: 25px;
-            font-size: 16px;
+            font-size: 14px;
+            border-radius: 10px;
         }
 
         select {
@@ -677,7 +681,8 @@ nav{
             font-weight: 400;
             color: #707070;
             line-height: 25px;
-            font-size: 16px;
+            font-size: 14px;
+            border-radius: 10px;
         }
 
         textarea {
@@ -699,6 +704,7 @@ nav{
 }
 
 .career{
+    background-color: #F9F1F8;
     padding: 50px 0px;
     h2{
         font-family: "Libre Franklin", sans-serif;
@@ -738,6 +744,8 @@ nav{
 
 .looking{
     padding: 50px 0px;
+    background-color: #F9F1F8;
+    overflow: hidden;
     h2{
         font-family: "Libre Franklin", sans-serif;
         font-weight: 500;
@@ -753,6 +761,11 @@ nav{
         font-weight: 600;
         font-style: normal;
         color: #33302d;
+    }
+    .col-box{
+        background-color: #fff;
+        height: 100%;
+        padding: 20px;
     }
     p{
         font-family: Manrope, sans-serif;
@@ -852,5 +865,19 @@ nav{
 
     &:hover {
         border: 1px solid #19382B;
+    }
+}
+
+@media (max-width:576px) {
+    .form-container {
+        top: 50%;
+        width: 100%;
+        padding: 50px 60px;
+    }
+
+    .btn_brochure {
+        background-color: #1e1916;
+        padding: 5px 0 20px 0;
+        margin-top: -5px;
     }
 }
