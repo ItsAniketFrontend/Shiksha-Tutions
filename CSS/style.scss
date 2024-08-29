@@ -399,6 +399,10 @@ nav{
         line-height: 78px;
         font-size: 65px;
         color: #fff;
+        @media (max-width:991px) {
+            font-size: 32px;
+            line-height: normal;
+        }
     }
 
     .form-box {
@@ -516,8 +520,11 @@ nav{
         color: #fff;
         margin-bottom: 0px;
         background-color: #38B18A;
-        padding: 28px;
-        width: fit-content;
+        height: 60px;
+        width: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 100%;
     }
     h2{
@@ -604,5 +611,150 @@ nav{
         border-radius: 10px;
         background-color: #F9F1F8;
         width: fit-content;
+    }
+}
+
+.tutor-banner {
+    background-color: #38B18A;
+    padding: 100px 0px;
+
+    h1 {
+        font-family: "Libre Franklin", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 78px;
+        font-size: 62px;
+        color: #fff;
+        @media (max-width:991px) {
+            font-size: 32px;
+            line-height: normal;
+        }
+    }
+
+    p{
+        font-family: "Libre Franklin", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: normal;
+        font-size: 16px;
+        color: #fff;
+        @media (max-width:991px) {
+            font-size: 14px;
+            line-height: normal;
+        } 
+    }
+
+    .form-box {
+        padding: 30px;
+        border: 1px solid #fff;
+        border-radius: 30px;
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            margin-bottom: 10px;
+            font-family: Manrope, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #707070;
+            line-height: 25px;
+            font-size: 16px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            margin-bottom: 10px;
+            font-family: Manrope, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #707070;
+            line-height: 25px;
+            font-size: 16px;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        button {
+            background-color: transparent;
+            padding: 10px 40px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            font-family: "Libre Franklin", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 16px;
+            color: #fff;
+        }
+    }
+}
+
+.career{
+    padding: 50px 0px;
+    h2{
+        font-family: "Libre Franklin", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 32px;
+        color: #000;
+        span{
+            color: #38B18A;
+        }
+    }
+    p{
+        font-family: Manrope, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #707070;
+            line-height: 25px;
+            font-size: 16px;
+    }
+    h3{
+        font-family: "Open Sans", sans-serif;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 600;
+        font-style: normal;
+        color: #33302d;
+    }
+    h6{
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        color: #000;
+        line-height: 25px;
+        font-size: 18px;
+    }
+}
+
+.looking{
+    padding: 50px 0px;
+    h2{
+        font-family: "Libre Franklin", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 32px;
+        color: #000;
+        margin-bottom: 30px;
+    }
+    h3{
+        font-family: "Open Sans", sans-serif;
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 600;
+        font-style: normal;
+        color: #33302d;
+    }
+    p{
+        font-family: Manrope, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #707070;
+            line-height: 25px;
+            font-size: 16px;
     }
 }

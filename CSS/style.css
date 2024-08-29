@@ -371,6 +371,12 @@ nav button {
   font-size: 65px;
   color: #fff;
 }
+@media (max-width: 991px) {
+  .student-banner h1 {
+    font-size: 32px;
+    line-height: normal;
+  }
+}
 .student-banner .form-box {
   padding: 30px;
   border: 1px solid #fff;
@@ -476,9 +482,11 @@ nav button {
   color: #fff;
   margin-bottom: 0px;
   background-color: #38B18A;
-  padding: 28px;
-  width: -moz-fit-content;
-  width: fit-content;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 100%;
 }
 .student-steps h2 {
@@ -563,4 +571,146 @@ nav button {
   background-color: #F9F1F8;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.tutor-banner {
+  background-color: #38B18A;
+  padding: 100px 0px;
+}
+.tutor-banner h1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 78px;
+  font-size: 62px;
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .tutor-banner h1 {
+    font-size: 32px;
+    line-height: normal;
+  }
+}
+.tutor-banner p {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  font-size: 16px;
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .tutor-banner p {
+    font-size: 14px;
+    line-height: normal;
+  }
+}
+.tutor-banner .form-box {
+  padding: 30px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+.tutor-banner .form-box input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #707070;
+  line-height: 25px;
+  font-size: 16px;
+}
+.tutor-banner .form-box select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #707070;
+  line-height: 25px;
+  font-size: 16px;
+}
+.tutor-banner .form-box textarea {
+  width: 100%;
+}
+.tutor-banner .form-box button {
+  background-color: transparent;
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+}
+
+.career {
+  padding: 50px 0px;
+}
+.career h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+  color: #000;
+}
+.career h2 span {
+  color: #38B18A;
+}
+.career p {
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #707070;
+  line-height: 25px;
+  font-size: 16px;
+}
+.career h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: 600;
+  font-style: normal;
+  color: #33302d;
+}
+.career h6 {
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #000;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.looking {
+  padding: 50px 0px;
+}
+.looking h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.looking h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  font-style: normal;
+  color: #33302d;
+}
+.looking p {
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #707070;
+  line-height: 25px;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
