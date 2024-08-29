@@ -56,7 +56,8 @@ nav button {
 .main-banner {
   overflow: hidden;
   background-color: #38B18A;
-  min-height: 400px;
+  padding-top: 150px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,13 +73,13 @@ nav button {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
   font-style: normal;
-  line-height: 78px;
-  font-size: 65px;
+  line-height: normal;
+  font-size: 52px;
   color: #fff;
 }
 @media (max-width: 991px) {
   .main-banner .col-12 h1 {
-    font-size: 52px;
+    font-size: 26px;
     line-height: normal;
     text-align: center;
   }
@@ -88,8 +89,13 @@ nav button {
   font-weight: 400;
   font-style: normal;
   line-height: 20px;
-  font-size: 21px;
+  font-size: 18px;
   color: #fff;
+}
+@media (max-width: 991px) {
+  .main-banner .col-12 p {
+    font-size: 14px;
+  }
 }
 .main-banner .col-12 button {
   background-color: transparent;
@@ -195,6 +201,33 @@ nav button {
   line-height: 25px;
   color: #707070;
   font-family: Manrope, sans-serif;
+}
+
+.home-testimonials {
+  padding: 100px 0px;
+  background-color: #FEF6F7;
+}
+.home-testimonials .box {
+  background-color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 30px;
+}
+.home-testimonials .box p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #707070;
+  font-family: Manrope, sans-serif;
+}
+.home-testimonials .box h3 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 23px;
+  font-family: "DM Sans", sans-serif;
+  color: #808080;
 }
 
 .home-what {
@@ -382,6 +415,14 @@ nav button {
     line-height: normal;
   }
 }
+.student-banner p {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  color: #fff;
+}
 .student-banner .form-box {
   padding: 30px;
   border: 1px solid #fff;
@@ -481,6 +522,7 @@ nav button {
 .student-steps {
   padding: 50px 0px;
   background-color: #F9F1F8;
+  overflow: hidden;
 }
 .student-steps h6 {
   font-family: "DM Sans", sans-serif;
