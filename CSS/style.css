@@ -937,4 +937,31 @@ nav button {
     padding: 5px 0 20px 0;
     margin-top: -5px;
   }
+}
+.fixed-buttons {
+  position: fixed;
+  bottom: 0px;
+  z-index: 100px;
+  display: none;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .fixed-buttons {
+    display: block;
+  }
+}
+.fixed-buttons button {
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #38B18A;
+  border: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.fixed-buttons button a {
+  color: #fff;
+  font-family: Manrope, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
