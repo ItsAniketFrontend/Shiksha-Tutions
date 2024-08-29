@@ -73,10 +73,24 @@ nav{
             font-weight: 700;
             font-style: normal;
             line-height: normal;
-            font-size: 52px;
+            font-size: 42px;
             color: #fff;
             @media (max-width:991px) {
-                font-size: 26px;
+                font-size: 28px;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+
+        h2{
+            font-family: "Libre Franklin", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            line-height: normal;
+            font-size: 28px;
+            color: #fff;
+            @media (max-width:991px) {
+                font-size: 22px;
                 line-height: normal;
                 text-align: center;
             }
@@ -84,10 +98,10 @@ nav{
 
         p {
             font-family: "Libre Franklin", sans-serif;
-            font-weight: 400;
+            font-weight: 300;
             font-style: normal;
             line-height: 20px;
-            font-size: 18px;
+            font-size: 17px;
             color: #fff;
             @media (max-width:991px) {
                 font-size: 14px;
@@ -126,7 +140,9 @@ nav{
         align-items: center;
         flex-direction: column;
         box-shadow: 0px 28px 40px 0px rgba(2.000000000000001, 8.000000000000025, 22, 0.1);
-
+        @media (max-width:991px) {
+            padding: 10px 5px;
+        }
         h2 {
             padding-top: 18px;
             font-family: "DM Sans", sans-serif;
@@ -135,6 +151,11 @@ nav{
             line-height: 48px;
             font-size: 48px;
             color: #000;
+            @media (max-width:991px) {
+                font-size: 28px;
+                padding-top: 5px;
+                margin-bottom: 0px;
+            }
         }
 
         p {
@@ -393,9 +414,9 @@ nav{
     p {
         font-family: Manrope, sans-serif;
         font-style: normal;
-        font-weight: 400;
-        line-height: 25px;
-        font-size: 16px;
+        font-weight: 200;
+        line-height: normal;
+        font-size: 14px;
         color: #fff;
     }
 
@@ -435,18 +456,36 @@ nav{
         font-size: 42px;
         color: #fff;
         @media (max-width:991px) {
-            font-size: 28px;
+            font-size: 24px;
             line-height: normal;
+            text-align: center;
         }
     }
 
-    p{
+    h2{
         font-family: "Libre Franklin", sans-serif;
-        font-weight: 400;
+        font-weight: 600;
         font-style: normal;
         line-height: normal;
-        font-size: 14px;
+        font-size: 28px;
         color: #fff;
+        @media (max-width:991px) {
+            font-size: 18px;
+            line-height: normal;
+            text-align: center;
+        }
+    }
+
+    p {
+        font-family: "Libre Franklin", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 20px;
+        font-size: 17px;
+        color: #fff;
+        @media (max-width:991px) {
+            font-size: 12px;
+        }
     }
 
     .form-box {
@@ -466,6 +505,10 @@ nav{
             line-height: 25px;
             font-size: 14px;
             border-radius: 10px;
+            @media (max-width:991px) {
+                padding: 5px;
+                font-size: 13px;
+            }
         }
 
         select {
@@ -480,6 +523,10 @@ nav{
             line-height: 25px;
             font-size: 14px;
             border-radius: 10px;
+            @media (max-width:991px) {
+                padding: 5px;
+                font-size: 13px;
+            }
         }
 
         textarea {
@@ -594,7 +641,7 @@ nav{
 }
 
 .specialisation{
-
+    overflow: hidden;
     h2{
         font-family: Manrope, sans-serif;
         font-weight: 700;

@@ -74,22 +74,37 @@ nav button {
   font-weight: 700;
   font-style: normal;
   line-height: normal;
-  font-size: 52px;
+  font-size: 42px;
   color: #fff;
 }
 @media (max-width: 991px) {
   .main-banner .col-12 h1 {
-    font-size: 26px;
+    font-size: 28px;
+    line-height: normal;
+    text-align: center;
+  }
+}
+.main-banner .col-12 h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+  font-size: 28px;
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .main-banner .col-12 h2 {
+    font-size: 22px;
     line-height: normal;
     text-align: center;
   }
 }
 .main-banner .col-12 p {
   font-family: "Libre Franklin", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   line-height: 20px;
-  font-size: 18px;
+  font-size: 17px;
   color: #fff;
 }
 @media (max-width: 991px) {
@@ -127,6 +142,11 @@ nav button {
   flex-direction: column;
   box-shadow: 0px 28px 40px 0px rgba(2, 8, 22, 0.1);
 }
+@media (max-width: 991px) {
+  .home-usps .col-box {
+    padding: 10px 5px;
+  }
+}
 .home-usps .col-box h2 {
   padding-top: 18px;
   font-family: "DM Sans", sans-serif;
@@ -135,6 +155,13 @@ nav button {
   line-height: 48px;
   font-size: 48px;
   color: #000;
+}
+@media (max-width: 991px) {
+  .home-usps .col-box h2 {
+    font-size: 28px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+  }
 }
 .home-usps .col-box p {
   font-weight: 400;
@@ -370,9 +397,9 @@ nav button {
 .foot p {
   font-family: Manrope, sans-serif;
   font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-  font-size: 16px;
+  font-weight: 200;
+  line-height: normal;
+  font-size: 14px;
   color: #fff;
 }
 .foot li {
@@ -411,17 +438,38 @@ nav button {
 }
 @media (max-width: 991px) {
   .student-banner h1 {
-    font-size: 28px;
+    font-size: 24px;
     line-height: normal;
+    text-align: center;
+  }
+}
+.student-banner h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+  font-size: 28px;
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .student-banner h2 {
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
   }
 }
 .student-banner p {
   font-family: "Libre Franklin", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
-  line-height: normal;
-  font-size: 14px;
+  line-height: 20px;
+  font-size: 17px;
   color: #fff;
+}
+@media (max-width: 991px) {
+  .student-banner p {
+    font-size: 12px;
+  }
 }
 .student-banner .form-box {
   padding: 30px;
@@ -441,6 +489,12 @@ nav button {
   font-size: 14px;
   border-radius: 10px;
 }
+@media (max-width: 991px) {
+  .student-banner .form-box input {
+    padding: 5px;
+    font-size: 13px;
+  }
+}
 .student-banner .form-box select {
   width: 100%;
   padding: 10px;
@@ -453,6 +507,12 @@ nav button {
   line-height: 25px;
   font-size: 14px;
   border-radius: 10px;
+}
+@media (max-width: 991px) {
+  .student-banner .form-box select {
+    padding: 5px;
+    font-size: 13px;
+  }
 }
 .student-banner .form-box textarea {
   width: 100%;
@@ -556,6 +616,9 @@ nav button {
   color: #666;
 }
 
+.specialisation {
+  overflow: hidden;
+}
 .specialisation h2 {
   font-family: Manrope, sans-serif;
   font-weight: 700;
