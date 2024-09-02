@@ -4,18 +4,24 @@
     box-sizing: border-box;
 }
 
-nav{
+body {
+    background: #FCFCFC;
+}
+
+nav {
     position: absolute !important;
     top: 0px;
     left: 0px;
     width: 100%;
     border-bottom: 1px solid #fff;
     padding: 0px !important;
-    a{
+
+    a {
         color: #fff !important;
 
     }
-    .nav-link{
+
+    .nav-link {
         font-family: "DM Sans", sans-serif !important;
         font-style: normal;
         font-weight: 600;
@@ -23,16 +29,19 @@ nav{
         line-height: 48px;
         font-size: 15px;
         color: #fff;
+
         @media (max-width:991px) {
             color: #000 !important;
         }
     }
-    .navbar-collapse{
+
+    .navbar-collapse {
         @media (max-width:991px) {
             background-color: #fff;
         }
     }
-    button{
+
+    button {
         background-color: transparent;
         border: 1px solid #fff;
         border-radius: 10px;
@@ -48,13 +57,13 @@ nav{
     }
 }
 
-.possi{
+.possi {
     position: relative;
 }
 
 .main-banner {
     overflow: hidden;
-    background-color: #38B18A;
+    background-color: #FF7200;
     padding-top: 150px;
     padding-bottom: 50px;
     display: flex;
@@ -75,6 +84,7 @@ nav{
             line-height: normal;
             font-size: 42px;
             color: #fff;
+
             @media (max-width:991px) {
                 font-size: 28px;
                 line-height: normal;
@@ -82,13 +92,14 @@ nav{
             }
         }
 
-        h2{
+        h2 {
             font-family: "Libre Franklin", sans-serif;
             font-weight: 600;
             font-style: normal;
             line-height: normal;
             font-size: 28px;
             color: #fff;
+
             @media (max-width:991px) {
                 font-size: 22px;
                 line-height: normal;
@@ -103,6 +114,7 @@ nav{
             line-height: 20px;
             font-size: 17px;
             color: #fff;
+
             @media (max-width:991px) {
                 font-size: 14px;
             }
@@ -127,250 +139,334 @@ nav{
     }
 }
 
-.home-usps {
-    overflow: hidden;
+.home-what-shiksha-does {
     padding: 50px 0px;
-    background-color: #F9F1F8;
+
+    h2 {
+        font-family: "Arimo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 44px;
+        line-height: 53px;
+        color: #48413e;
+    }
+
+    p {
+        font-family: "Arimo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 19px;
+        line-height: 28px;
+        color: #48413e;
+    }
 
     .col-box {
-        background-color: #fff;
-        padding: 50px 10px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        box-shadow: 0px 28px 40px 0px rgba(2.000000000000001, 8.000000000000025, 22, 0.1);
-        @media (max-width:991px) {
-            padding: 10px 5px;
-        }
-        h2 {
-            padding-top: 18px;
-            font-family: "DM Sans", sans-serif;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 48px;
-            font-size: 48px;
-            color: #000;
-            @media (max-width:991px) {
-                font-size: 28px;
-                padding-top: 5px;
-                margin-bottom: 0px;
-            }
-        }
+        padding: 50px 20px;
+        height: 100%;
+        border-radius: 10px;
+        transition: .4s linear;
+        border-bottom: 4px solid #fff;
+        background: #fff;
+        box-shadow: 2px 7px 14px -2px #e0d9d9;
 
-        p {
+        h6 {
+            font-family: "Arimo", sans-serif;
             font-weight: 400;
             font-style: normal;
             font-size: 18px;
-            line-height: 23px;
-            font-family: "DM Sans", sans-serif;
-            color: #808080;
+            line-height: 22px;
+            color: #0d0d2e;
         }
     }
 }
 
-.home-student {
-    overflow: hidden;
-    background-color: #F9F1F8;
+.how-student {
+    padding: 50px 0px;
 
     h2 {
-        font-family: Manrope, sans-serif;
+        font-family: "Arimo", sans-serif;
+        font-weight: 700;
         font-style: normal;
         font-size: 44px;
-        line-height: 57px;
-        font-weight: 700;
-        color: #000;
-    }
-
-    p {
-        font-weight: 400;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 25px;
-        color: #707070;
-        font-family: Manrope, sans-serif;
-    }
-
-    li {
-        font-weight: 400;
-        font-style: normal;
-        font-size: 13px;
-        line-height: 25px;
-        color: #707070;
-        font-family: Manrope, sans-serif;
-    }
-}
-
-.home-tutors {
-    overflow: hidden;
-    background-color: #F9F1F8;
-
-    h2 {
-        font-family: Manrope, sans-serif;
-        font-style: normal;
-        font-size: 44px;
-        line-height: 57px;
-        font-weight: 700;
-        color: #000;
-    }
-
-    p {
-        font-weight: 400;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 25px;
-        color: #707070;
-        font-family: Manrope, sans-serif;
-    }
-
-    li {
-        font-weight: 400;
-        font-style: normal;
-        font-size: 13px;
-        line-height: 25px;
-        color: #707070;
-        font-family: Manrope, sans-serif;
-    }
-}
-
-.home-testimonials{
-    padding: 100px 0px;
-    background-color: #FEF6F7;
-    .box{
-        background-color: #fff;
-        width: fit-content;
-        padding: 30px;
-        p{
-            font-weight: 400;
-            font-style: normal;
-            font-size: 16px;
-            line-height: 25px;
-            color: #707070;
-            font-family: Manrope, sans-serif;
+        line-height: 52px;
+        color: #48413e;
+        span{
+            color: #FF7200;
         }
-        h3{
+    }
+
+    p {
+        font-family: "Arimo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #48413e;
+    }
+
+    li {
+        font-family: "Arimo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 26px;
+        color: #000;
+        list-style: none;
+        span{
+            color: #FF7200;
             font-weight: 700;
-            font-style: normal;
-            font-size: 24px;
-            line-height: 23px;
-            font-family: "DM Sans", sans-serif;
-            color: #000;
         }
     }
 }
 
-.home-what {
-    overflow: hidden;
-    background-color: #F9F1F8;
+.home-tutor {
+    padding-bottom: 50px;
 
     h2 {
-        font-family: Manrope, sans-serif;
+        font-family: "Arimo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
         font-size: 44px;
-        line-height: 57px;
-        font-weight: 700;
-        color: #000;
-        font-style: normal;
-        padding-bottom: 28px;
+        line-height: 52px;
+        color: #48413e;
+        span{
+            color: #FF7200;
+            font-weight: 700;
+        }
     }
 
-    .col-box {
-        background-color: #ffffff;
-        border-radius: 10px;
-        padding: 40px 0px;
+    p {
+        font-family: "Arimo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #48413e;
     }
 
-    h3 {
-        font-family: Manrope, sans-serif;
-        font-size: 34px;
-        line-height: 37px;
-        font-weight: 700;
-        color: #000;
+    li {
+        font-family: "Arimo", sans-serif;
+        font-weight: 400;
         font-style: normal;
-        padding-top: 30px;
+        font-size: 17px;
+        line-height: 26px;
+        color: #000;
+        list-style: none;
+    }
+}
+
+.home-cta-want {
+    padding: 70px 0px;
+    background: #FF7200;
+
+    h2 {
+        font-family: "Arimo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 39px;
+        line-height: 47px;
+        color: #fff;
     }
 
     button {
-        background-color: transparent;
-        padding: 10px 40px;
+        background-color: #fff;
+        padding: 10px 30px;
         border-radius: 10px;
-        background-color: #FF723A;
         border: none;
-        transition: 300ms all ease-in;
 
-        &:hover {
-            background-color: #fff;
-            border: 1px solid #FF723A;
+        a {
+            font-family: "Arimo", sans-serif;
+            font-weight: 700;
+            text-decoration: none;
+            font-style: normal;
+            font-size: 23px;
+            line-height: 34px;
+            color: #FF7200;
+        }
+    }
+}
 
-            a {
-                text-decoration: none;
-                font-family: Manrope, sans-serif;
-                font-size: 16px;
-                line-height: 16px;
-                color: #000;
-                font-weight: 400;
+.otoo-features {
+    padding: 50px 0px;
+    background: #F7F7F7;
+
+    h2 {
+        font-family: "Arimo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 44px;
+        line-height: 53px;
+        color: #48413e;
+    }
+
+    .bg {
+        background: url(../Images/side-triangle.png);
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        .col-box {
+            padding: 50px 20px;
+            height: 100%;
+            background: #fff;
+
+            h3 {
+                font-family: "Arimo", sans-serif;
+                font-weight: 700;
                 font-style: normal;
+                font-size: 22px;
+                line-height: normal;
+                text-align: center;
+                color: #212529;
             }
         }
 
-        a {
-            text-decoration: none;
-            font-family: Manrope, sans-serif;
-            font-size: 16px;
-            line-height: 16px;
-            color: #fff;
+    }
+    .right-bg {
+        background: url(../Images/right-bg.png);
+        background-position: top left;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        .col-box {
+            padding: 50px 20px;
+            height: 100%;
+            background: #fff;
+
+            h3 {
+                font-family: "Arimo", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 22px;
+                line-height: normal;
+                text-align: center;
+                color: #212529;
+            }
+        }
+        p{
+            font-family: "Arimo", sans-serif;
             font-weight: 400;
             font-style: normal;
+            font-size: 19px;
+            line-height: 28px;
+            text-align: center;
+            color: #212529;
         }
     }
 }
 
-.why-home {
-    background-color: #F9F1F8;
-
-    h2 {
-        font-family: Manrope, sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 57px;
-        color: #000;
-    }
-
-    p {
-        font-family: Manrope, sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 25px;
-        color: #707070;
-    }
-
-    li {
-        font-family: Manrope, sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 25px;
-        color: #1b212f;
-    }
-
-    button {
-        width: fit-content;
-        background-color: #FF723A;
-        padding: 10px 40px;
-        border-radius: 20px;
-        border: none;
-        margin-top: 30px;
-
-        a {
-            text-decoration: none;
-            font-size: 16px;
+.how-contact{
+    padding: 50px 0px;
+    h2{
+        font-family: "Arimo", sans-serif;
+            font-weight: 700;
             font-style: normal;
-            font-family: Manrope, sans-serif;
-            color: #fff;
+            font-size: 44px;
+            line-height: 53px;
+            text-align: center;
+            color: #48413e;
+            span{
+                color: #FF7200;
+            }
+    }
+    p{
+        font-family: "Arimo", sans-serif;
             font-weight: 400;
-            line-height: 16px;
+            font-style: normal;
+            font-size: 19px;
+            line-height: 28px;
+            text-align: center;
+            color: #48413e;
+    }
+    h3{
+        font-family: "Arimo", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 28px;
+            line-height: 33px;
+            color: #48413e;
+    }
+    h6{
+        font-family: "Arimo", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #212529;
+    }
+    h5{
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+        color: #fff;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.become-tutor{
+    background-color: #F7F7F7;
+    padding: 50px 0px;
+    h2{
+        font-family: "Arimo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 44px;
+        line-height: 53px;
+        color:  rgb(72, 65, 62);
+        sPan{
+            color: #FF7200;
         }
+    }
+    .col-box{
+        padding: 30px 10px;
+        background: #fff;
+        border: 0;
+        box-shadow: 2px 7px 14px -2px #e0d9d9;
+        border-radius: 12px;
+        h3{
+            font-family: "Arimo", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 26px;
+            line-height: 31px;
+            color:  rgb(72, 65, 62);
+        }
+        p{
+            font-family: "Arimo", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color:  #212529; 
+        }
+    }
+    
+}
+
+.how-tutor{
+    padding: 50px 0px;
+    h2{
+        font-family: "Arimo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 44px;
+        line-height: 53px;
+        color:  #48413e; 
+    }
+    h3{
+        font-family: "Arimo", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color:  rgb(33, 37, 41); 
     }
 }
 
@@ -428,7 +524,8 @@ nav{
         line-height: 25px;
         font-size: 16px;
         list-style: none;
-        a{
+
+        a {
             text-decoration: none;
             color: #fff;
         }
@@ -455,6 +552,7 @@ nav{
         line-height: normal;
         font-size: 42px;
         color: #fff;
+
         @media (max-width:991px) {
             font-size: 24px;
             line-height: normal;
@@ -462,13 +560,14 @@ nav{
         }
     }
 
-    h2{
+    h2 {
         font-family: "Libre Franklin", sans-serif;
         font-weight: 600;
         font-style: normal;
         line-height: normal;
         font-size: 28px;
         color: #fff;
+
         @media (max-width:991px) {
             font-size: 18px;
             line-height: normal;
@@ -483,6 +582,7 @@ nav{
         line-height: 20px;
         font-size: 17px;
         color: #fff;
+
         @media (max-width:991px) {
             font-size: 12px;
         }
@@ -505,6 +605,7 @@ nav{
             line-height: 25px;
             font-size: 14px;
             border-radius: 10px;
+
             @media (max-width:991px) {
                 padding: 5px;
                 font-size: 13px;
@@ -523,6 +624,7 @@ nav{
             line-height: 25px;
             font-size: 14px;
             border-radius: 10px;
+
             @media (max-width:991px) {
                 padding: 5px;
                 font-size: 13px;
@@ -603,11 +705,12 @@ nav{
     }
 }
 
-.student-steps{
+.student-steps {
     padding: 50px 0px;
     background-color: #F9F1F8;
     overflow: hidden;
-    h6{
+
+    h6 {
         font-family: "DM Sans", sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -622,7 +725,8 @@ nav{
         align-items: center;
         border-radius: 100%;
     }
-    h2{
+
+    h2 {
         font-family: "DM Sans", sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -630,7 +734,8 @@ nav{
         color: #000;
         margin-bottom: 0px;
     }
-    p{
+
+    p {
         font-family: Archivo, sans-serif;
         font-size: 16px;
         font-weight: 300;
@@ -640,9 +745,10 @@ nav{
     }
 }
 
-.specialisation{
+.specialisation {
     overflow: hidden;
-    h2{
+
+    h2 {
         font-family: Manrope, sans-serif;
         font-weight: 700;
         font-style: normal;
@@ -650,7 +756,8 @@ nav{
         line-height: 39px;
         color: #1b212f;
     }
-    p{
+
+    p {
         font-family: Manrope, sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -658,7 +765,8 @@ nav{
         font-size: 16px;
         color: #707070;
     }
-    h3{
+
+    h3 {
         font-family: Manrope, sans-serif;
         font-weight: 600;
         font-style: normal;
@@ -666,16 +774,18 @@ nav{
         font-size: 18px;
         color: #000009;
     }
-    .col-box{
+
+    .col-box {
         background-color: #FEF6F7;
         height: 100%;
         padding: 20px;
     }
 }
 
-.local-class{
+.local-class {
     padding-bottom: 40px;
-    h2{
+
+    h2 {
         font-family: "Open Sans", sans-serif;
         font-size: 38px;
         font-weight: 600;
@@ -683,7 +793,8 @@ nav{
         line-height: normal;
         color: #000;
     }
-    h3{
+
+    h3 {
         font-family: "Open Sans", sans-serif;
         font-size: 18px;
         line-height: 24px;
@@ -692,7 +803,8 @@ nav{
         color: #33302d;
         margin-bottom: 0px;
     }
-    p{
+
+    p {
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -701,7 +813,8 @@ nav{
         color: #686664;
         font-style: normal;
     }
-    .box{
+
+    .box {
         padding: 20px;
         border-radius: 10px;
         background-color: #F9F1F8;
@@ -720,23 +833,25 @@ nav{
         line-height: normal;
         font-size: 42px;
         color: #fff;
+
         @media (max-width:991px) {
             font-size: 24px;
             line-height: normal;
         }
     }
 
-    p{
+    p {
         font-family: "Libre Franklin", sans-serif;
         font-weight: 400;
         font-style: normal;
         line-height: normal;
         font-size: 16px;
         color: #fff;
+
         @media (max-width:991px) {
             font-size: 14px;
             line-height: normal;
-        } 
+        }
     }
 
     .form-box {
@@ -790,28 +905,32 @@ nav{
     }
 }
 
-.career{
+.career {
     background-color: #F9F1F8;
     padding: 50px 0px;
-    h2{
+
+    h2 {
         font-family: "Libre Franklin", sans-serif;
         font-weight: 500;
         font-style: normal;
         font-size: 32px;
         color: #000;
-        span{
+
+        span {
             color: #38B18A;
         }
     }
-    p{
+
+    p {
         font-family: Manrope, sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            color: #707070;
-            line-height: 25px;
-            font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        color: #707070;
+        line-height: 25px;
+        font-size: 16px;
     }
-    h3{
+
+    h3 {
         font-family: "Open Sans", sans-serif;
         font-size: 21px;
         line-height: 24px;
@@ -819,7 +938,8 @@ nav{
         font-style: normal;
         color: #33302d;
     }
-    h6{
+
+    h6 {
         font-family: Manrope, sans-serif;
         font-style: normal;
         font-weight: 600;
@@ -829,11 +949,12 @@ nav{
     }
 }
 
-.looking{
+.looking {
     padding: 50px 0px;
     background-color: #F9F1F8;
     overflow: hidden;
-    h2{
+
+    h2 {
         font-family: "Libre Franklin", sans-serif;
         font-weight: 500;
         font-style: normal;
@@ -841,7 +962,8 @@ nav{
         color: #000;
         margin-bottom: 30px;
     }
-    h3{
+
+    h3 {
         font-family: "Open Sans", sans-serif;
         font-size: 24px;
         line-height: 24px;
@@ -849,18 +971,20 @@ nav{
         font-style: normal;
         color: #33302d;
     }
-    .col-box{
+
+    .col-box {
         background-color: #fff;
         height: 100%;
         padding: 20px;
     }
-    p{
+
+    p {
         font-family: Manrope, sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            color: #707070;
-            line-height: 25px;
-            font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        color: #707070;
+        line-height: 25px;
+        font-size: 16px;
     }
 }
 
@@ -915,25 +1039,25 @@ nav{
 
 .popup_form label {
     color: #000;
-     font-family: Manrope, sans-serif;
+    font-family: Manrope, sans-serif;
     font-size: 18px;
 }
 
-.popup_form input{
-     font-family: Manrope, sans-serif;
+.popup_form input {
+    font-family: Manrope, sans-serif;
     font-size: 14px;
     color: #53626a;
 }
 
-.popup_form textarea{
-     font-family: Manrope, sans-serif;
+.popup_form textarea {
+    font-family: Manrope, sans-serif;
     font-size: 14px;
     color: #53626a;
 }
 
 .popup_form h5 {
     color: #000;
-     font-family: Manrope, sans-serif;
+    font-family: Manrope, sans-serif;
     font-size: 24px;
 }
 
@@ -947,7 +1071,7 @@ nav{
 .popup_form button {
     background-color: #19382B;
     color: #fff;
-     font-family: Manrope, sans-serif;
+    font-family: Manrope, sans-serif;
     font-weight: 500;
 
     &:hover {
@@ -966,31 +1090,5 @@ nav{
         background-color: #1e1916;
         padding: 5px 0 20px 0;
         margin-top: -5px;
-    }
-}
-
-.fixed-buttons{
-    position: fixed;
-    bottom: 0px;
-    z-index: 100px;
-    display: none;
-    width: 100%;
-    @media (max-width:991px) {
-        display: block;
-    }
-    button{
-        width: 100%;
-        padding: 10px 30px;
-        background-color: #38B18A;
-        border: none;
-        border: 1px solid #fff;
-        border-radius: 10px;
-        a{
-            color: #fff;
-            font-family: Manrope, sans-serif;
-           font-weight: 500;
-           font-size: 14px;
-           text-decoration: none;
-        }
     }
 }

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #FCFCFC;
+}
+
 nav {
   position: absolute !important;
   top: 0px;
@@ -55,7 +59,7 @@ nav button {
 
 .main-banner {
   overflow: hidden;
-  background-color: #38B18A;
+  background-color: #FF7200;
   padding-top: 150px;
   padding-bottom: 50px;
   display: flex;
@@ -128,237 +132,314 @@ nav button {
   color: #fff;
 }
 
-.home-usps {
-  overflow: hidden;
+.home-what-shiksha-does {
   padding: 50px 0px;
-  background-color: #F9F1F8;
 }
-.home-usps .col-box {
-  background-color: #fff;
-  padding: 50px 10px;
+.home-what-shiksha-does h2 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 53px;
+  color: #48413e;
+}
+.home-what-shiksha-does p {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 28px;
+  color: #48413e;
+}
+.home-what-shiksha-does .col-box {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0px 28px 40px 0px rgba(2, 8, 22, 0.1);
+  padding: 50px 20px;
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.4s linear;
+  border-bottom: 4px solid #fff;
+  background: #fff;
+  box-shadow: 2px 7px 14px -2px #e0d9d9;
 }
-@media (max-width: 991px) {
-  .home-usps .col-box {
-    padding: 10px 5px;
-  }
-}
-.home-usps .col-box h2 {
-  padding-top: 18px;
-  font-family: "DM Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 48px;
-  font-size: 48px;
-  color: #000;
-}
-@media (max-width: 991px) {
-  .home-usps .col-box h2 {
-    font-size: 28px;
-    padding-top: 5px;
-    margin-bottom: 0px;
-  }
-}
-.home-usps .col-box p {
+.home-what-shiksha-does .col-box h6 {
+  font-family: "Arimo", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
-  line-height: 23px;
-  font-family: "DM Sans", sans-serif;
-  color: #808080;
+  line-height: 22px;
+  color: #0d0d2e;
 }
 
-.home-student {
-  overflow: hidden;
-  background-color: #F9F1F8;
+.how-student {
+  padding: 50px 0px;
 }
-.home-student h2 {
-  font-family: Manrope, sans-serif;
+.how-student h2 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 44px;
-  line-height: 57px;
-  font-weight: 700;
+  line-height: 52px;
+  color: #48413e;
+}
+.how-student h2 span {
+  color: #FF7200;
+}
+.how-student p {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #48413e;
+}
+.how-student li {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 26px;
   color: #000;
+  list-style: none;
 }
-.home-student p {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 25px;
-  color: #707070;
-  font-family: Manrope, sans-serif;
-}
-.home-student li {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 25px;
-  color: #707070;
-  font-family: Manrope, sans-serif;
+.how-student li span {
+  color: #FF7200;
+  font-weight: 700;
 }
 
-.home-tutors {
-  overflow: hidden;
-  background-color: #F9F1F8;
+.home-tutor {
+  padding-bottom: 50px;
 }
-.home-tutors h2 {
-  font-family: Manrope, sans-serif;
+.home-tutor h2 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 44px;
-  line-height: 57px;
+  line-height: 52px;
+  color: #48413e;
+}
+.home-tutor h2 span {
+  color: #FF7200;
   font-weight: 700;
+}
+.home-tutor p {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #48413e;
+}
+.home-tutor li {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 26px;
   color: #000;
-}
-.home-tutors p {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 25px;
-  color: #707070;
-  font-family: Manrope, sans-serif;
-}
-.home-tutors li {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 25px;
-  color: #707070;
-  font-family: Manrope, sans-serif;
+  list-style: none;
 }
 
-.home-testimonials {
-  padding: 100px 0px;
-  background-color: #FEF6F7;
+.home-cta-want {
+  padding: 70px 0px;
+  background: #FF7200;
 }
-.home-testimonials .box {
+.home-cta-want h2 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 39px;
+  line-height: 47px;
+  color: #fff;
+}
+.home-cta-want button {
   background-color: #fff;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 30px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
 }
-.home-testimonials .box p {
+.home-cta-want button a {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 34px;
+  color: #FF7200;
+}
+
+.otoo-features {
+  padding: 50px 0px;
+  background: #F7F7F7;
+}
+.otoo-features h2 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 53px;
+  color: #48413e;
+}
+.otoo-features .bg {
+  background: url(../Images/side-triangle.png);
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.otoo-features .bg .col-box {
+  padding: 50px 20px;
+  height: 100%;
+  background: #fff;
+}
+.otoo-features .bg .col-box h3 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: normal;
+  text-align: center;
+  color: #212529;
+}
+.otoo-features .right-bg {
+  background: url(../Images/right-bg.png);
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.otoo-features .right-bg .col-box {
+  padding: 50px 20px;
+  height: 100%;
+  background: #fff;
+}
+.otoo-features .right-bg .col-box h3 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: normal;
+  text-align: center;
+  color: #212529;
+}
+.otoo-features .right-bg p {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 28px;
+  text-align: center;
+  color: #212529;
+}
+
+.how-contact {
+  padding: 50px 0px;
+}
+.how-contact h2 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  color: #48413e;
+}
+.how-contact h2 span {
+  color: #FF7200;
+}
+.how-contact p {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 28px;
+  text-align: center;
+  color: #48413e;
+}
+.how-contact h3 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 33px;
+  color: #48413e;
+}
+.how-contact h6 {
+  font-family: "Arimo", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  line-height: 25px;
-  color: #707070;
-  font-family: Manrope, sans-serif;
+  line-height: 24px;
+  color: #212529;
 }
-.home-testimonials .box h3 {
+.how-contact h5 {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.become-tutor {
+  background-color: #F7F7F7;
+  padding: 50px 0px;
+}
+.become-tutor h2 {
+  font-family: "Arimo", sans-serif;
   font-weight: 700;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 53px;
+  color: rgb(72, 65, 62);
+}
+.become-tutor h2 sPan {
+  color: #FF7200;
+}
+.become-tutor .col-box {
+  padding: 30px 10px;
+  background: #fff;
+  border: 0;
+  box-shadow: 2px 7px 14px -2px #e0d9d9;
+  border-radius: 12px;
+}
+.become-tutor .col-box h3 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 31px;
+  color: rgb(72, 65, 62);
+}
+.become-tutor .col-box p {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+}
+
+.how-tutor {
+  padding: 50px 0px;
+}
+.how-tutor h2 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 53px;
+  color: #48413e;
+}
+.how-tutor h3 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 500;
   font-style: normal;
   font-size: 24px;
-  line-height: 23px;
-  font-family: "DM Sans", sans-serif;
-  color: #000;
-}
-
-.home-what {
-  overflow: hidden;
-  background-color: #F9F1F8;
-}
-.home-what h2 {
-  font-family: Manrope, sans-serif;
-  font-size: 44px;
-  line-height: 57px;
-  font-weight: 700;
-  color: #000;
-  font-style: normal;
-  padding-bottom: 28px;
-}
-.home-what .col-box {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 40px 0px;
-}
-.home-what h3 {
-  font-family: Manrope, sans-serif;
-  font-size: 34px;
-  line-height: 37px;
-  font-weight: 700;
-  color: #000;
-  font-style: normal;
-  padding-top: 30px;
-}
-.home-what button {
-  background-color: transparent;
-  padding: 10px 40px;
-  border-radius: 10px;
-  background-color: #FF723A;
-  border: none;
-  transition: 300ms all ease-in;
-}
-.home-what button:hover {
-  background-color: #fff;
-  border: 1px solid #FF723A;
-}
-.home-what button:hover a {
-  text-decoration: none;
-  font-family: Manrope, sans-serif;
-  font-size: 16px;
-  line-height: 16px;
-  color: #000;
-  font-weight: 400;
-  font-style: normal;
-}
-.home-what button a {
-  text-decoration: none;
-  font-family: Manrope, sans-serif;
-  font-size: 16px;
-  line-height: 16px;
-  color: #fff;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.why-home {
-  background-color: #F9F1F8;
-}
-.why-home h2 {
-  font-family: Manrope, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 44px;
-  line-height: 57px;
-  color: #000;
-}
-.why-home p {
-  font-family: Manrope, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
-  color: #707070;
-}
-.why-home li {
-  font-family: Manrope, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 25px;
-  color: #1b212f;
-}
-.why-home button {
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: #FF723A;
-  padding: 10px 40px;
-  border-radius: 20px;
-  border: none;
-  margin-top: 30px;
-}
-.why-home button a {
-  text-decoration: none;
-  font-size: 16px;
-  font-style: normal;
-  font-family: Manrope, sans-serif;
-  color: #fff;
-  font-weight: 400;
-  line-height: 16px;
+  line-height: 29px;
+  color: rgb(33, 37, 41);
 }
 
 .foot {
@@ -937,31 +1018,4 @@ nav button {
     padding: 5px 0 20px 0;
     margin-top: -5px;
   }
-}
-.fixed-buttons {
-  position: fixed;
-  bottom: 0px;
-  z-index: 100px;
-  display: none;
-  width: 100%;
-}
-@media (max-width: 991px) {
-  .fixed-buttons {
-    display: block;
-  }
-}
-.fixed-buttons button {
-  width: 100%;
-  padding: 10px 30px;
-  background-color: #38B18A;
-  border: none;
-  border: 1px solid #fff;
-  border-radius: 10px;
-}
-.fixed-buttons button a {
-  color: #fff;
-  font-family: Manrope, sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
