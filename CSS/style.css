@@ -424,6 +424,10 @@ nav button {
 
 .how-tutor {
   padding: 50px 0px;
+  background: url(../Images/whyus-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .how-tutor h2 {
   font-family: "Arimo", sans-serif;
@@ -433,6 +437,9 @@ nav button {
   line-height: 53px;
   color: #48413e;
 }
+.how-tutor h2 span {
+  color: #FF7200;
+}
 .how-tutor h3 {
   font-family: "Arimo", sans-serif;
   font-weight: 500;
@@ -440,6 +447,49 @@ nav button {
   font-size: 24px;
   line-height: 29px;
   color: rgb(33, 37, 41);
+}
+.how-tutor p {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+}
+
+.home-testimonials {
+  padding: 100px 0px;
+  background-color: #FEF6F7;
+}
+.home-testimonials h2 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 53px;
+  color: #48413e;
+}
+.home-testimonials .box {
+  background-color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 30px;
+}
+.home-testimonials .box p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #707070;
+  font-family: Manrope, sans-serif;
+}
+.home-testimonials .box h3 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 23px;
+  font-family: "DM Sans", sans-serif;
+  color: #000;
 }
 
 .foot {

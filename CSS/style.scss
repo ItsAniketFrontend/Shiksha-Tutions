@@ -452,6 +452,10 @@ nav {
 
 .how-tutor{
     padding: 50px 0px;
+    background: url(../Images/whyus-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     h2{
         font-family: "Arimo", sans-serif;
         font-weight: 700;
@@ -459,6 +463,9 @@ nav {
         font-size: 44px;
         line-height: 53px;
         color:  #48413e; 
+        span{
+            color: #FF7200;
+        }
     }
     h3{
         font-family: "Arimo", sans-serif;
@@ -467,6 +474,48 @@ nav {
         font-size: 24px;
         line-height: 29px;
         color:  rgb(33, 37, 41); 
+    }
+    p{
+        font-family: "Arimo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color:  #212529;   
+    }
+}
+
+.home-testimonials{
+    padding: 100px 0px;
+    background-color: #FEF6F7;
+    h2{
+        font-family: "Arimo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 44px;
+        line-height: 53px;
+        color:  #48413e;   
+    }
+    .box{
+        background-color: #fff;
+        width: fit-content;
+        padding: 30px;
+        p{
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 25px;
+            color: #707070;
+            font-family: Manrope, sans-serif;
+        }
+        h3{
+            font-weight: 700;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 23px;
+            font-family: "DM Sans", sans-serif;
+            color: #000;
+        }
     }
 }
 
