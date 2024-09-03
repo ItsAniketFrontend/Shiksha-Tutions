@@ -18,10 +18,50 @@
 
 <body>
 
+  <header>
+    <nav class="navbar navbar-expand-lg py-2">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          LOGO
+        </a>
+        <button class="navbar-toggler" type="button" style="background-color: #ffff;" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item px-3">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="tutors.html">Find Tutor Job</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="student.html">Find Tutor</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link d-block d-sm-block d-md-block d-lg-none d-xl-none" onclick="toggleForm()">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
+          <button onclick="toggleForm()">Contact Us</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
 
   <main>
 
-    <section class="tutor-banner possi">
+    <section class="tutor-banner">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 col-12 d-flex justify-content-center flex-column align-items-center">
@@ -82,127 +122,18 @@
       </div>
     </section>
 
-    <header>
-      <nav class="navbar navbar-expand-lg py-2">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            LOGO
-          </a>
-          <button class="navbar-toggler" type="button" style="background-color: #ffff;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item px-3">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="tutors.html">Tutor</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="student.html">Students</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link d-block d-sm-block d-md-block d-lg-none d-xl-none" href="student.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <div class="d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
-            <button onclick="toggleForm()">Contact Us</button>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-
-    <section class="career">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2>Career With <span>Shiksha Home Tutions</span></h2>
-            <p>Are you passionate about teaching and eager to make a meaningful impact on students' lives? Shiksha Home
-              Tutors is looking for talented and motivated educators like you to join our team. As a Shiksha Home Tutor,
-              you'll have the opportunity to inspire, guide, and shape the academic journey of students right in their
-              homes.</p>
-            <h3>Why Teach with Shiksha Home Tutors?</h3>
-            <div class="">
-              <h6>1. Flexibility:</h6>
-              <p>Set your own schedule and work at times that suit you. Whether you’re looking to tutor full-time or
-                part-time, we offer the flexibility to fit teaching around your lifestyle.</p>
-            </div>
-            <div class="">
-              <h6>2. Competitive Earnings:</h6>
-              <p>Earn a rewarding income while doing what you love. At Shiksha Home Tutors, we value your expertise and
-                compensate you fairly for your time and dedication.</p>
-            </div>
-            <div class="">
-              <h6>3. Personal Fulfillment:</h6>
-              <p>Experience the joy of making a real difference in students' lives. You'll witness firsthand how your
-                guidance helps students grow in confidence and achieve their academic goals.</p>
-            </div>
-            <div class="">
-              <h6>4. Professional Growth:</h6>
-              <p>Enhance your teaching skills with access to resources, training, and support from our experienced team.
-                We’re committed to helping you develop as an educator.</p>
-            </div>
-            <div class="">
-              <h6>5. Diverse Teaching Opportunities:</h6>
-              <p>Whether you specialize in elementary subjects, high school courses, or test preparation, we have
-                students who need your expertise. Choose to teach the subjects and grade levels that align with your
-                strengths and interests.</p>
-            </div>
-            <div class="">
-              <h6>6. Safe and Trusted Environment:</h6>
-              <p>We prioritize the safety and trustworthiness of our tutors. All engagements are carefully managed, and
-                we ensure that both tutors and students have a secure and positive experience.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section class="side-button">
+      <button onclick="toggleForm()"><a>Let's Talk</a></button>
     </section>
 
-    <section class="looking">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>What We’re Looking For</h2>
-          </div>
-          <div class="col-lg-3" data-aos="fade-right" data-aos-duration="800" data-aos-delay="250">
-            <div class="col-box">
-              <img src="Images/ability.png" width="48px" alt="">
-              <h3 class="pt-3">Qualified Educators: </h3>
-              <p>Whether you’re a certified teacher, a subject matter expert, or an experienced tutor, we welcome professionals who are passionate about education.</p>
-            </div>
-          </div>
-          <div class="col-lg-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            <div class="col-box">
-              <img src="Images/communication.png" width="48px" alt="">
-              <h3 class="pt-3">Strong Communication Skills:</h3>
-              <p>The ability to connect with students and explain concepts clearly is essential.</p>
-            </div>
-          </div>
-          <div class="col-lg-3" data-aos="fade-down" data-aos-duration="800" data-aos-delay="350">
-            <div class="col-box">
-              <img src="Images/achievements.png" width="48px" alt="">
-              <h3 class="pt-3">Commitment to Excellence:</h3>
-              <p>We seek tutors who are dedicated, reliable, and committed to helping students succeed.</p>
-            </div>
-          </div>
-          <div class="col-lg-3" data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
-            <div class="col-box">
-              <img src="Images/adaptation.png" width="48px" alt="">
-              <h3 class="pt-3">Adaptability: </h3>
-              <p>Every student is unique. We value tutors who can tailor their teaching approach to meet individual learning needs.</p>
-            </div>
-          </div>
+    <section class="social-icons">
+      <div class="row">
+        <div class="col-6 text-center">
+          <a href="tel:+91 76118 18188"><img src="Images/phoneicon.png" alt=""></a>
         </div>
-      </div>
-    </section>
-
-    <section class="fixed-buttons">
-      <div class="d-flex gap-1">
-        <button><a href="tutors.html">Tutor</a></button>
-        <button><a href="student.html">Student</a></button>
+        <div class="col-6 text-center">
+          <a href="whatsapp://send?text=Hello&phone=+91 820 937 1116"><img src="Images/whicon.png" alt=""></a>
+        </div>
       </div>
     </section>
 

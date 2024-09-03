@@ -9,26 +9,27 @@ body {
 }
 
 nav {
-    position: absolute !important;
-    top: 0px;
-    left: 0px;
-    width: 100%;
     border-bottom: 1px solid #fff;
     padding: 0px !important;
-
+    position: fixed !important;
+    width: 100%;
+    background-color: #fff;
+    top: 0px;
+    z-index: 2000;
+    left: 0px;
     a {
-        color: #fff !important;
+        color: #000 !important;
 
     }
 
     .nav-link {
-        font-family: "DM Sans", sans-serif !important;
+        font-family: Arial, Helvetica, sans-serif !important;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 600 !important;
         text-transform: uppercase;
         line-height: 48px;
         font-size: 15px;
-        color: #fff;
+        color: #000 !important;
 
         @media (max-width:991px) {
             color: #000 !important;
@@ -42,7 +43,7 @@ nav {
     }
 
     button {
-        background-color: transparent;
+        background-color: #FF7200;
         border: 1px solid #fff;
         border-radius: 10px;
         padding: 10px 30px;
@@ -57,9 +58,6 @@ nav {
     }
 }
 
-.possi {
-    position: relative;
-}
 
 .main-banner {
     overflow: hidden;
@@ -141,7 +139,7 @@ nav {
 
 .home-what-shiksha-does {
     padding: 50px 0px;
-
+    background: #F7F7F7;
     h2 {
         font-family: "Arimo", sans-serif;
         font-weight: 700;
@@ -149,6 +147,10 @@ nav {
         font-size: 44px;
         line-height: 53px;
         color: #48413e;
+        @media (max-width:991px) {
+            font-size: 28px;
+            line-height: normal;
+        }
     }
 
     p {
@@ -158,6 +160,10 @@ nav {
         font-size: 19px;
         line-height: 28px;
         color: #48413e;
+        @media (max-width:991px) {
+            font-size: 14px;
+            line-height: normal;
+        }
     }
 
     .col-box {
@@ -197,6 +203,10 @@ nav {
         span{
             color: #FF7200;
         }
+        @media (max-width:991px) {
+            font-size: 32px;
+            line-height: normal;
+        }
     }
 
     p {
@@ -206,6 +216,10 @@ nav {
         font-size: 20px;
         line-height: 30px;
         color: #48413e;
+        @media (max-width:991px) {
+            font-size: 15px;
+            line-height: normal;
+        }
     }
 
     li {
@@ -237,6 +251,10 @@ nav {
             color: #FF7200;
             font-weight: 700;
         }
+        @media (max-width:991px) {
+            font-size: 32px;
+            line-height: normal;
+        }
     }
 
     p {
@@ -246,6 +264,10 @@ nav {
         font-size: 20px;
         line-height: 30px;
         color: #48413e;
+        @media (max-width:991px) {
+            font-size: 15px;
+            line-height: normal;
+        }
     }
 
     li {
@@ -270,6 +292,10 @@ nav {
         font-size: 39px;
         line-height: 47px;
         color: #fff;
+        @media (max-width:991px) {
+            font-size: 26px;
+            line-height: normal;
+        }
     }
 
     button {
@@ -301,6 +327,10 @@ nav {
         font-size: 44px;
         line-height: 53px;
         color: #48413e;
+        @media (max-width:991px) {
+            font-size: 30px;
+            line-height: normal;
+        }
     }
 
     .bg {
@@ -322,6 +352,10 @@ nav {
                 line-height: normal;
                 text-align: center;
                 color: #212529;
+                @media (max-width:991px) {
+                    font-size: 16px;
+                    line-height: normal;
+                }
             }
         }
 
@@ -345,6 +379,10 @@ nav {
                 line-height: normal;
                 text-align: center;
                 color: #212529;
+                @media (max-width:991px) {
+                    font-size: 16px;
+                    line-height: normal;
+                }
             }
         }
         p{
@@ -355,6 +393,10 @@ nav {
             line-height: 28px;
             text-align: center;
             color: #212529;
+            @media (max-width:991px) {
+                font-size: 16px;
+                line-height: normal;
+            }
         }
     }
 }
@@ -372,6 +414,10 @@ nav {
             span{
                 color: #FF7200;
             }
+            @media (max-width:991px) {
+                font-size: 28px;
+                line-height: normal;
+            }
     }
     p{
         font-family: "Arimo", sans-serif;
@@ -381,6 +427,10 @@ nav {
             line-height: 28px;
             text-align: center;
             color: #48413e;
+            @media (max-width:991px) {
+                font-size: 15px;
+                line-height: normal;
+            }
     }
     h3{
         font-family: "Arimo", sans-serif;
@@ -389,6 +439,10 @@ nav {
             font-size: 28px;
             line-height: 33px;
             color: #48413e;
+            @media (max-width:991px) {
+                font-size: 24px;
+                line-height: normal;
+            }
     }
     h6{
         font-family: "Arimo", sans-serif;
@@ -397,6 +451,10 @@ nav {
             font-size: 16px;
             line-height: 24px;
             color: #212529;
+            @media (max-width:991px) {
+                font-size: 15px;
+                line-height: normal;
+            }
     }
     h5{
         width: 30px;
@@ -422,6 +480,10 @@ nav {
         color:  rgb(72, 65, 62);
         sPan{
             color: #FF7200;
+        }
+        @media (max-width:991px) {
+            font-size: 28px;
+            line-height: normal;
         }
     }
     .col-box{
@@ -456,6 +518,9 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    @media (max-width:991px) {
+        background: none;
+    }
     h2{
         font-family: "Arimo", sans-serif;
         font-weight: 700;
@@ -466,6 +531,10 @@ nav {
         span{
             color: #FF7200;
         }
+        @media (max-width:991px) {
+            font-size: 30px;
+            line-height: normal;
+        }
     }
     h3{
         font-family: "Arimo", sans-serif;
@@ -474,6 +543,11 @@ nav {
         font-size: 24px;
         line-height: 29px;
         color:  rgb(33, 37, 41); 
+        @media (max-width:991px) {
+            font-size: 20px;
+            line-height: normal;
+            font-weight: 700;
+        }
     }
     p{
         font-family: "Arimo", sans-serif;
@@ -495,6 +569,10 @@ nav {
         font-size: 44px;
         line-height: 53px;
         color:  #48413e;   
+        @media (max-width:991px) {
+            font-size: 30px;
+            line-height: normal;
+        }
     }
     .box{
         background-color: #fff;
@@ -507,6 +585,10 @@ nav {
             line-height: 25px;
             color: #707070;
             font-family: Manrope, sans-serif;
+            @media (max-width:991px) {
+                font-size: 14px;
+                line-height: normal;
+            }
         }
         h3{
             font-weight: 700;
@@ -591,7 +673,7 @@ nav {
 }
 
 .student-banner {
-    background-color: #38B18A;
+    background-color: #FF7200;
     padding: 100px 0px;
 
     h1 {
@@ -872,7 +954,7 @@ nav {
 }
 
 .tutor-banner {
-    background-color: #38B18A;
+    background-color: #FF7200;
     padding: 100px 0px;
 
     h1 {
@@ -1139,5 +1221,70 @@ nav {
         background-color: #1e1916;
         padding: 5px 0 20px 0;
         margin-top: -5px;
+    }
+}
+
+.side-button{
+    position: fixed;
+    left: -30px;
+    bottom: 100px;
+    z-index: 4000;
+    rotate: 90deg;
+    @media (max-width:991px) {
+        bottom: 200px;
+    }
+    button{
+        background-color: #FF7200;
+        padding: 5px 10px;
+        border: none;
+        color: #fff;
+        a{
+            font-family: "Arimo", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 16px;
+            color: #fff; 
+            text-decoration: none;
+        }
+    }
+}
+
+.social-icons{
+    display: none;
+    @media (max-width:991px) {
+        display: flex;
+        padding: 0px 0px;
+        position: fixed;
+        z-index: 7000;
+        bottom: 0px;
+        width: 100%;
+        left: 0px;
+        background-color: #fff;
+
+    }
+    .row{
+        width: 100%;
+        .col-6{
+            border: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.buttone{
+    background-color: #FF7200;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    a{
+        font-family: "Arimo", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 21px;
+        color: #fff; 
+        text-decoration: none;
     }
 }

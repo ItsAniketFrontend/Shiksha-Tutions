@@ -20,9 +20,64 @@
 
 <body>
 
+  <header>
+    <nav class="navbar navbar-expand-lg py-2">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          LOGO
+        </a>
+        <button class="navbar-toggler" type="button" style="background-color: #ffff;" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item px-3">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="tutors.html">Find Tutor Job</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="student.html">Find Tutor</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link d-block d-sm-block d-md-block d-lg-none d-xl-none" onclick="toggleForm()">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
+          <button onclick="toggleForm()">Contact Us</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <main>
 
-    <section class="main-banner possi">
+    <section class="side-button">
+      <button onclick="toggleForm()"><a>Let's Talk</a></button>
+    </section>
+
+    <section class="social-icons">
+      <div class="row">
+        <div class="col-6 text-center">
+          <a href="tel:+91 76118 18188"><img src="Images/phoneicon.png" alt=""></a>
+        </div>
+        <div class="col-6 text-center">
+          <a href="whatsapp://send?text=Hello&phone=+91 820 937 1116"><img src="Images/whicon.png" alt=""></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-banner">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
@@ -40,45 +95,7 @@
       </div>
     </section>
 
-    <header>
-      <nav class="navbar navbar-expand-lg py-2">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            LOGO
-          </a>
-          <button class="navbar-toggler" type="button" style="background-color: #ffff;" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item px-3">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="about.html">About Us</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="tutors.html">Find Tutor Job</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="student.html">Find Tutor</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link d-block d-sm-block d-md-block d-lg-none d-xl-none" href="student.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <div class="d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
-            <button onclick="toggleForm()">Contact Us</button>
-          </div>
-        </div>
-      </nav>
-    </header>
+  
 
     <section class="home-what-shiksha-does">
       <div class="container">
@@ -89,63 +106,67 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-6 my-3">
+          <div class="col-lg-3 col-12 my-3">
             <div class="col-box">
+              <img src="Images/Primary -to-10th.png" width="64" alt="">
                 <h6>Pre Primary To 10th</h6>
             </div>
             
           </div>
-          <div class="col-lg-3 col-6 my-3">
+          <div class="col-lg-3 col-12 my-3">
             <div class="col-box">
+              <img src="Images/iconCBSE-ICSE-IB-State Board.png" width="64" alt="">
+                <h6>Board CBSE,ICSE,Etc.</h6>
+            </div>
+            
+          </div>
+          <div class="col-lg-3 col-12 my-3">
+            <div class="col-box">
+              <img src="Images/iconSchool-Faculty.png" width="64" alt="">
                 <h6>School Faculty</h6>
             </div>
             
           </div>
-          <div class="col-lg-3 col-6 my-3">
+          <div class="col-lg-3 col-12 my-3">
             <div class="col-box">
-                <h6>Commerce</h6>
-            </div>
-            
-          </div>
-          <div class="col-lg-3 col-6 my-3">
-            <div class="col-box">
+              <img src="Images/iconScience.png" width="64" alt="">
                 <h6>Science</h6>
             </div>
             
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-lg-3 col-6 my-3">
+          <div class="col-lg-3 col-12 my-3">
             <div class="col-box">
-                <h6>Arts</h6>
+              <img src="Images/iconCommerce.png" width="64" alt="">
+              <h6>Commerce</h6>
             </div>
-            
           </div>
-          <div class="col-lg-3 col-6 my-3">
+          <div class="col-lg-3 col-12 my-3">
             <div class="col-box">
-                <h6>CBSE/ICSE/IB/State Board</h6>
-            </div>
-            
+              <img src="Images/iconArts.png" width="64" alt="">
+              <h6>Arts</h6>
+            </div>  
           </div>
-          <div class="col-lg-3 col-6 my-3">
+          <div class="col-lg-3 col-12 my-3">
             <div class="col-box">
-                <h6>English, French, German</h6>
+              <img src="Images/iconEnglish, French, German, Kannada.png" width="64" alt="">
+              <h6>English, French, German</h6>
             </div>
-            
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-lg-3 col-6 my-3">
+          <div class="col-lg-3 col-12 my-3">
             <div class="col-box">
-                <h6>Competetive Exams</h6>
+              <img src="Images/iconCompetitive Exams.png" width="64" alt="">
+              <h6>Competetive Exams</h6>
             </div>
-            
           </div>
-          <div class="col-lg-3 col-6 my-3">
+          <div class="col-lg-3 col-12 my-3">
             <div class="col-box">
-                <h6>Non-Academic Learning</h6>
+              <img src="Images/iconNon-Academic Learning.png" width="64" alt="">
+              <h6>Non-Academic Learning</h6>
             </div>
-            
           </div>
         </div>
       </div>
@@ -159,11 +180,11 @@
           </div>
           <div class="col-lg-7 col-12">
             <h2>How can <span>Students</span> Benefit?</h2>
-            <p>At OTOO, we understand that every student is unique and has their own learning style. Thus, we help you get connected with our experienced teachers either for online or offline tuition classes in minutes. Eliminate the hassle of searching for a home tutor near me! Easily choose from thousands of teachers for home tuition or take classes at tutor’s place as per your suitability through our app, website, or by simply contacting us. Get a free demo class with the teacher to understand if they match your requirements. </p>
-            <li>Customized Tuition Services</li>
-            <li>Thousands of Home Tutors Listed </li>
-            <li><span>Free</span> Demo Classes</li>
-            <li>Flexibility of learning as per each student’s own pace.</li>
+            <p>At Shiksha Home Tutions, we understand that every student is unique and has their own learning style. Thus, we help you get connected with our experienced teachers either for online or offline tuition classes in minutes. Eliminate the hassle of searching for a home tutor near me! Easily choose from thousands of teachers for home tuition or take classes at tutor’s place as per your suitability through our app, website, or by simply contacting us. Get a free demo class with the teacher to understand if they match your requirements. </p>
+            <li class="d-flex align-items-center gap-2 my-1"><img src="Images/tick.png" alt="">Customized Tuition Services</li>
+            <li class="d-flex align-items-center gap-2 my-1"><img src="Images/tick.png" alt="">Thousands of Home Tutors Listed </li>
+            <li class="d-flex align-items-center gap-2 my-1"><img src="Images/tick.png" alt=""><span>Free</span> Demo Classes</li>
+            <li class="d-flex align-items-center gap-2 my-1"><img src="Images/tick.png" alt="">Flexibility of learning as per each student’s own pace.</li>
           </div>
         </div>
       </div>
@@ -172,15 +193,16 @@
     <section class="home-tutor">
       <div class="container">
         <div class="row">
-          <div class="col-lg-7">
+          <div class="col-lg-7 order-2 order-lg-1">
             <h2>How can <span>Tutors</span> Benefit?</h2>
-            <p>OTOO helps tutors quickly get access to various leads for tuition services and connect with multiple academic institutions and students through a single portal. Be a home tutor, teach at educational institutions, or your place, all from one place. You can easily create your profile and get leads as per your expertise for the nearest areas using OTOO app, website, or by directly connecting with us. Take up jobs for online tuition services, home tuition services, or teach at any other academic institution at your convenience. </p>
-            <li>Get Verified Leads</li>
-            <li>Teach as per your convenience </li>
-            <li>Competitive Payment </li>
-            <li>Recruitment Assistance at Coaching and Schools</li>
+            <p>Shiksha Home Tutions helps tutors quickly get access to various leads for tuition services and connect with multiple academic institutions and students through a single portal. Be a home tutor, teach at educational institutions, or your place, all from one place. You can easily create your profile and get leads as per your expertise for the nearest areas using  website, or by directly connecting with us. Take up jobs for online tuition services, home tuition services, or teach at any other academic institution at your convenience. </p>
+            <li class="d-flex gap-2 align-items-center my-1"><img src="Images/tick.png" alt="">Get Verified Leads</li>
+            <li class="d-flex gap-2 align-items-center my-1"><img src="Images/tick.png" alt="">Teach as per your convenience </li>
+            <li class="d-flex gap-2 align-items-center my-1"><img src="Images/tick.png" alt="">Competitive Payment </li>
+            <li class="d-flex gap-2 align-items-center my-1"><img src="Images/tick.png" alt="">Recruitment Assistance at Coaching and Schools</li>
+            <button class="buttone"><a href="student.html">Find a Tutor</a></button>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 order-1 order-lg-2">
             <img src="Images/home-tutors.png" class="img-fluid" alt="">
           </div>
         </div>
@@ -194,7 +216,7 @@
             <h2>
               Want to Know More About Shiksha Home Tutions? Call Us
             </h2>
-            <button><a href="">+91-76118 18188</a></button>
+            <button><a href="tel:+91-76118 18188">+91-76118 18188</a></button>
           </div>
         </div>
       </div>
@@ -208,7 +230,7 @@
           </div>
         </div>
         <div class="row bg">
-          <div class="col-lg-7">
+          <div class="col-lg-7 order-lg-1 order-2">
             <div class="row">
               <div class="col-lg-4 col-6 my-3">
                 <div class="col-box">
@@ -242,7 +264,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 order-lg-2 order-1">
             <img src="Images/iconIllu.png" class="img-fluid" alt="">
           </div>
         </div>
@@ -269,6 +291,7 @@
               </div>
               <div class="col-12">
                 <p>No more searching for tuition near me! We got you covered with our customizable learning plans that cater to the specific needs of each student. The teaching methods are interactive and engaging to make the learning process more interesting and effective. Also, we ensure strict safety and security measures in place to protect the privacy and personal information of the students and parents.</p>
+                <button class="buttone"><a href="student.html">Find a Tutor</a></button>
               </div>
             </div>
           </div>
@@ -285,7 +308,7 @@
           </div>
           <div class="col-lg-4 col-12">
             <h5>1</h5>
-            <h3>Register on OTOO website or contact us</h3>
+            <h3>Register on Shiksha Home Tutions website or contact us</h3>
             <h6>You can connect with us through our app, or website, or contact us to confirm your requirements.</h6>
           </div>
           <div class="col-lg-4 col-12">
@@ -297,6 +320,9 @@
             <h5>3</h5>
             <h3>Hire the Perfect Tutor</h3>
             <h6>Assess the tutor based on the demo class and hire accordingly. Connect with us for any further queries.</h6>
+          </div>
+          <div class="col-12 text-center">
+            <button class="buttone"><a href="student.html">Find a Tutor</a></button>
           </div>
         </div>
       </div>
@@ -314,7 +340,7 @@
                 <img src="" alt="">
                 <div class="">
                   <h3>Reliable Platform</h3>
-                  <p>OTOO connects you with the best academic institutions and students as per your requirements.</p>
+                  <p>Shiksha Home Tutions connects you with the best academic institutions and students as per your requirements.</p>
                 </div>
               </div>
             </div>  
@@ -336,7 +362,7 @@
                 <img src="" alt="">
                 <div class="">
                   <h3>Competitive Pay</h3>
-                  <p>OTOO offers competitive compensation for tutors, which helps them to grow 10x faster in their career.</p>
+                  <p>Shiksha Home Tutions offers competitive compensation for tutors, which helps them to grow 10x faster in their career.</p>
                 </div>
               </div>
             </div>
@@ -352,6 +378,9 @@
               </div>
             </div>
           </div>
+          <div class="col-12 text-center">
+            <button class="buttone"><a href="tutors.html">Become a Tutor</a></button>
+          </div>
         </div>
       </div>
     </section>
@@ -364,20 +393,23 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 my-3">
             <div class="col-box">
+              <img src="Images/ico-1.png" width="48" alt="">
               <h3>Visit Our Website</h3>
               <p>Vist on the Website to get comprehensive access to people searching "best tuition near me".</p>
             </div>  
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 my-3">
             <div class="col-box">
+              <img src="Images/ico-2.png" width="48" alt="">
               <h3>Fill Enquiry</h3>
               <p>Build a professional online presence and connect with potential employers or clients .</p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 my-3">
             <div class="col-box">
+              <img src="Images/ico-3.png" width="48" alt="">
               <h3>Apply for Nearest Vaccancies</h3>
               <p>Explore job opportunities near you and increase your chances of landing your dream job.</p>
             </div>
@@ -412,6 +444,19 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-cta-want">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>
+              Book a Free Demo Class
+            </h2>
+            <button><a href="tel:+91-76118 18188">+91-76118 18188</a></button>
+          </div>
         </div>
       </div>
     </section>

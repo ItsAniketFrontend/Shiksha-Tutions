@@ -18,15 +18,65 @@
 
 <body>
 
+  <header>
+    <nav class="navbar navbar-expand-lg py-2">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          LOGO
+        </a>
+        <button class="navbar-toggler" type="button" style="background-color: #ffff;" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item px-3">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="tutors.html">Find Tutor Job</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="student.html">Find Tutor</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link d-block d-sm-block d-md-block d-lg-none d-xl-none" onclick="toggleForm()">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
+          <button onclick="toggleForm()">Contact Us</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
 
   <main>
 
-    <section class="student-banner possi">
+    <section class="social-icons">
+      <div class="row">
+        <div class="col-6 text-center">
+          <a href="tel:+91 76118 18188"><img src="Images/phoneicon.png" alt=""></a>
+        </div>
+        <div class="col-6 text-center">
+          <a href="whatsapp://send?text=Hello&phone=+91 820 937 1116"><img src="Images/whicon.png" alt=""></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="student-banner">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 col-12 d-flex justify-content-center flex-column align-items-center">
-            <h1> Looking for a Home Tutor in your city Chandigarh</h1>
-            <h2>Achieve Academic Excellence with Shiksha Home Tuition!</h2>
+            <h1> Looking for a Home Tutor in your city Chandigarh, Zirakpur, Kharar, Mohali, Panchkula.</h1>
             <p>Take the first step towards your child's academic success today. Simply fill out the form, and our team will promptly match you with a qualified tutor in Chandigarh who can provide personalized, one-on-one support right at your doorstep.</p>
           </div>
           <div class="col-lg-5 col-12">
@@ -80,240 +130,10 @@
       </div>
     </section>
 
-    <header>
-      <nav class="navbar navbar-expand-lg py-2">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            LOGO
-          </a>
-          <button class="navbar-toggler" type="button" style="background-color: #ffff;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item px-3">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="tutors.html">Tutor</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="student.html">Students</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link d-block d-sm-block d-md-block d-lg-none d-xl-none" href="student.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <div class="d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
-            <button onclick="toggleForm()">Contact Us</button>
-          </div>
-        </div>
-      </nav>
-    </header>
+  
 
-    <section class="home-usps">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-12" data-aos="fade-right" data-aos-delay="200" data-aos-duration="900">
-            <div class="col-box">
-              <img src="Images/students.png" alt="">
-              <h2>8,500+</h2>
-              <p>Happy Students</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-12" data-aos="fade-up" data-aos-delay="250" data-aos-duration="900">
-            <div class="col-box">
-              <img src="Images/tutors.png" alt="">
-              <h2>16.8K+</h2>
-              <p>Home Tutors</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-12" data-aos="fade-left" data-aos-delay="300" data-aos-duration="900">
-            <div class="col-box">
-              <img src="Images/facts.png" alt="">
-              <h2>30+</h2>
-              <p>Academic Subjects</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="why-students-real">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Why Do Parents Prefer Home Tuitions <br> with <span>Shiksha Home Tuitions?</span></h2>
-            <p>Customized and Personalized Learning Experience with Shiksha Home Tutions | we offer a tailored learning experience that suits your child's unique needs.</p>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="col-box">
-              <h3>One-on-One Attention</h3>
-              <p>Our home tutors provide dedicated, one-on-one attention, something that's often lacking in traditional classrooms. This personalized focus helps students grasp concepts more effectively and encourages them to ask questions freely.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="col-box">
-              <h3>Safe Learning Environment</h3>
-              <p>With Shiksha Home Tuitions, your child can learn in the comfort and safety of your own home. We understand that parents feel more at ease when their child is in a familiar environment.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="col-box">
-              <h3>Convenience and Flexibility</h3>
-              <p>Our home tutoring services are designed to fit into your busy schedule. Whether it’s after school, during weekends, or around extracurricular activities, we work with you to find the most convenient time for your child.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="col-box">
-              <h3>Greater Engagement</h3>
-              <p>Individualized attention from our tutors often leads to higher engagement and motivation. This personalized approach helps students stay focused, attentive, and retain more information during lessons.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="student-steps">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h1>How It Works</h1>
-          </div>
-          <div class="col-lg-6 .col-12" data-aos="fade-right">
-            <h6>1</h6>
-            <div class="d-flex gap-3 align-items-center pt-4 pb-2">
-              <img src="Images/add-friend.png" alt="">
-              <h2>Fill Form to get tutoring</h2>
-            </div>
-            <p>Fill Out the Form and request a Class in your Desired Subject</p>
-          </div>
-          <div class="col-lg-6 col-12" data-aos="fade-left">
-            <h6>2</h6>
-            <div class="d-flex gap-3 align-items-center pt-4 pb-2">
-              <img src="Images/hourglass.png" alt="">
-              <h2>Wait To get Match</h2>
-            </div>
-
-            <p>After Making a Request , Wait between 1-2 Weeks and a Tutor Should have Chosen Your</p>
-          </div>
-        </div>
-        <div class="row align-items-center flex-column justify-content-center">
-          <div class="col-lg-6 col-12" data-aos="fade-up">
-            <h6>3</h6>
-            <div class="d-flex gap-3 align-items-center pt-4 pb-2">
-              <img src="Images/videocall.png" alt="">
-              <h2>Start Attending Classes</h2>
-            </div>
-
-            <p>After Match Start Your Classes , Our Tutor Will Connect With You</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="local-class">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-12 d-flex justify-content-center flex-column">
-            <h2>Join a Local Class to Learn New Skills</h2>
-            <p>Not getting enough time to study? Explore the best local classes for different subjects,
-              from basic to advanced: your all learning needs will be covered here. So, what are you waiting for? Start
-              now!</p>
-            <div class="box mb-3 mt-3">
-              <div class="d-flex align-items-center gap-4">
-                <div class="">
-                  <h3>Class 1-5</h3>
-                  <p>Tutions</p>
-                </div>
-                <a href="#student-form">
-                <img src="Images/right-arrow.png" width="24px" alt="">
-                </a>
-              </div>
-            </div>
-            <div class="box mb-3">
-              <div class="d-flex align-items-center gap-4">
-                <div class="">
-                  <h3>Spoken English</h3>
-                  <p>Tutions</p>
-                </div>
-                <a href="#student-form">
-                <img src="Images/right-arrow.png" width="24px" alt="">
-                </a>
-              </div>
-            </div>
-            <div class="box mb-3">
-              <div class="d-flex align-items-center gap-4">
-                <div class="">
-                  <h3>IIT-JE</h3>
-                  <p>Classes</p>
-                </div>
-                <a href="#student-form">
-                <img src="Images/right-arrow.png" width="24px" alt="">
-                </a>
-              </div>
-            </div>
-            <div class="box mb-3">
-              <div class="d-flex align-items-center gap-4">
-                <div class="">
-                  <h3>NEET</h3>
-                  <p>Classes</p>
-                </div>
-                <a href="#student-form">
-                <img src="Images/right-arrow.png" width="24px" alt="">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-12">
-            <img src="Images/mid_hero_pic.png" class="img-fluid" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="specialisation">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <h2>OURS
-              SPECIALISATION</h2>
-            <p>At Shiksha Home Tuitions, we connect you with the best tutors for popular subjects, including Math, Chemistry, Science, Physics, Biology, Accountancy, Economics, Psychology, and Sociology. We also offer top-tier instructors, including Gold Medalists, for NEET, JEE, CPT, CLAT, and other competitive exams.</p>
-          </div>
-          <div class="col-lg-8">
-            <div class="row">
-              <div class="col-lg-4" data-aos="fade-left" data-aos-delay="250" data-aos-duration="800">
-                <div class="col-box">
-                  <h3>Performance Analytics</h3>
-                  <p>Our expert tutors focus on your child's performance, offering a classroom-like experience right at home.</p>
-                </div>
-              </div>
-              <div class="col-lg-4" data-aos="fade-left" data-aos-delay="300" data-aos-duration="800">
-                <div class="col-box">
-                  <h3>Pocket Friendly</h3>
-                  <p>Shiksha Home Tuitions provides the most interactive and affordable home tutoring services. Our tuition fees are designed to be reasonable and budget-friendly.</p>
-                </div>
-              </div>
-              <div class="col-lg-4" data-aos="fade-left" data-aos-delay="350" data-aos-duration="800">
-                <div class="col-box">
-                  <h3>Experienced Tutors</h3>
-                  <p>We are a trusted platform with a team of qualified and experienced tutors for all subjects across different boards and competitive exams.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="fixed-buttons">
-      <div class="d-flex gap-1">
-        <button><a href="tutors.html">Tutor</a></button>
-        <button><a href="student.html">Student</a></button>
-      </div>
+    <section class="side-button">
+      <button onclick="toggleForm()"><a>Let's Talk</a></button>
     </section>
 
 
