@@ -70,17 +70,12 @@ nav {
     flex-direction: column;
 
     .col-12 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
         h1 {
             font-family: "Libre Franklin", sans-serif;
             font-weight: 700;
             font-style: normal;
             line-height: normal;
-            font-size: 42px;
+            font-size: 38px;
             color: #fff;
 
             @media (max-width:991px) {
@@ -188,6 +183,38 @@ nav {
             color: #0d0d2e;
         }
     }
+}
+
+.about-us{
+    padding: 50px 0px;
+    h2 {
+        font-family: "Arimo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 44px;
+        line-height: 52px;
+        color: #48413e;
+        span{
+            color: #FF7200;
+        }
+        @media (max-width:991px) {
+            font-size: 32px;
+            line-height: normal;
+        }
+    }
+    p {
+        font-family: "Arimo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #48413e;
+        @media (max-width:991px) {
+            font-size: 15px;
+            line-height: normal;
+        }
+    }
+
 }
 
 .how-student {
